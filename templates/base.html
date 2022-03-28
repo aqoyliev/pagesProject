@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>green.dev</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Homepage</a>
+    <a href="{% url 'about' %}">About</a>
+    <a href="{% url 'signup' %}">Signup</a>
+    <a href="{% url 'settings' %}">Settings</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>
